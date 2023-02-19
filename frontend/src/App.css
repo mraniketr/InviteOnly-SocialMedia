@@ -1,0 +1,428 @@
+/* Navbar Start*/
+.navbar {
+  z-index: 99;
+  flex: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #620303;
+}
+
+.navbar h1 {
+  font-family: MyraRegular;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.menu-icons {
+  color: gold;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+}
+
+/* navbar End */
+
+/* Login Page */
+.splash-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 30rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin > input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin > input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin > p {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: MyraRegular;
+}
+
+/* Login Page End */
+
+/* Services page Start */
+.services-container {
+  margin-top: 6rem;
+  margin-bottom: 40vh;
+}
+
+.services-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  background-color: #f3f1eb;
+  min-height: 8rem;
+}
+
+.services-card-icon {
+  height: 2.3rem;
+  width: 2.3rem;
+}
+
+.col a {
+  text-decoration: none;
+  color: darkgoldenrod;
+}
+
+.services-card-title {
+  font-size: 1rem;
+}
+
+/* Services page end */
+
+/* Footer Start */
+
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  padding-top: 0.3rem;
+  background-color: #620303;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer > h3,
+.footer > h5 {
+  font-family: MyraRegular;
+  color: gold;
+  margin: 0;
+  padding: 0;
+}
+
+.footer > h3 {
+  font-size: 1rem;
+}
+.footer > h5 {
+  font-size: 0.6rem;
+}
+.footer > p {
+  font-size: 0.8rem;
+}
+
+.Author {
+  font-family: sans-serif;
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+  color: #f3f1eb;
+  background-color: #440202;
+}
+/* Footer End */
+
+/* Profile Sart */
+.family-profile {
+  margin-top: 6rem;
+  margin-bottom: 40vh;
+}
+.ppCenterCropped {
+  object-fit: cover; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 300px;
+  width: 300px;
+  /* margin: 0.5rem; */
+  border-radius: 10%;
+}
+.profile-form {
+  /* width: 100%; */
+  max-width: 30rem;
+  margin: auto;
+  padding: 0.2rem;
+}
+.paginationWrap {
+  flex-direction: row-reverse;
+}
+.profile-buttons,
+.Home .paginationWrap > button,
+.FamilyDirectory .paginationWrap > button,
+.FamilyDirectory .advFilterButton > button {
+  min-width: 8rem;
+}
+.profile-dl-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.members-table {
+  margin-top: 8px !important;
+  width: 95%;
+  max-width: 30rem;
+  margin: auto;
+}
+
+/* Home Start */
+
+.Home {
+  margin-top: 6rem;
+  margin-bottom: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home .paginationWrap,
+.FamilyDirectory .paginationWrap,
+.FamilyDirectory .advFilterButton {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  /* flex-direction: row; */
+  justify-content: space-around;
+  margin-top: 1rem;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.Home .BlogcardsWrap .card {
+  width: 500px;
+  max-width: 30rem;
+  border: gold solid 2px;
+}
+
+.Home .BlogcardsWrap {
+  display: grid;
+  gap: 1rem;
+}
+
+.Home .BlogcardsWrap .card-body {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Home .BlogcardsWrap .card > p {
+  margin: 4px 8px;
+  /* margin-bottom: 8px; */
+}
+
+.Home .BlogcardsWrap .card-body a {
+  align-self: center;
+}
+
+.Home .card-body button {
+  margin: 0.1rem;
+  background-color: #620303;
+  width: 6rem;
+
+  /* border-color: gold; */
+}
+
+/* Article Start */
+.article {
+  margin-top: 5rem;
+  margin-bottom: 40vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.article img {
+  width: 100vw;
+}
+/* 
+@media only screen and (min-width: 1000px) {
+  .article img {
+    max-height: 50vh;
+    width: unset;
+  }
+} */
+.article .contentWrap {
+  padding: 1rem;
+}
+
+/* Family Directory */
+
+.FamilyDirectory {
+  margin-top: 6rem;
+  margin-bottom: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FamilyDirectory .famCardsWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.FamilyDirectory .famCardsWrap .card {
+  flex-direction: row;
+  align-items: center;
+  max-width: 500px;
+}
+.FamilyDirectory .famCardsWrap .card .card-img-top,
+.FamilyDirectory .famCardsWrap .card > div > svg {
+  border-radius: 50%;
+  max-width: 5rem;
+  /* height: 5rem; */
+  object-fit: cover;
+  margin-left: 0.5rem;
+}
+.FamilyDirectory .famCardsWrap .card .card-img-top {
+  border: gold solid 0.1rem;
+}
+/* .FamilyDirectory .famCardsWrap .card > div > svg {
+  border-radius: unset;
+} */
+
+.FamilyDirectory .card-body {
+  padding: 0.5rem;
+}
+
+.FamilyDirectory .card-body > p {
+  margin-bottom: 0.5rem;
+}
+
+.FamilyDirectory .card .caller {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.FamilyDirectory .card .caller > button {
+  font-size: 0.9rem;
+  padding: 0.3rem;
+}
+
+.FamilyDirectory .card .caller > button > a {
+  text-decoration: none;
+  color: white;
+}
+
+.FamilyDirectory .btn-group {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.FamilyDirectory .accordion {
+  width: 90vw;
+  margin-bottom: 1rem;
+}
+
+.FamilyDirectory
+  .accordion
+  > .accordion-item:first-child
+  .btn-group
+  > button:last-child {
+  grid-column-start: 3;
+  grid-column-end: 9;
+}
+
+.FamilyDirectory .accordion-button,
+.family-profile .accordion-button {
+  padding: 0.5rem !important;
+}
+.family-profile .accordion-button {
+  gap: 10px;
+  justify-content: space-between;
+}
+.family-profile .accordion-button > div {
+  display: flex;
+  flex-direction: column;
+}
+.family-profile .accordion-button::after {
+  margin-left: 5px !important;
+}
+.FamilyDirectory .AdvFilterCheckBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* FAMILY DIR END */
+
+/* VISION MISSION START */
+.VisMis,
+.History {
+  padding-top: 6rem;
+  padding-bottom: 40vh;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: justify;
+  /* background-color: #f7f4e6; */
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #f7f4e6 6px
+    ),
+    repeating-linear-gradient(#fad5a21c, #fad5a270);
+}
+.VisMis .Title,
+.History .Title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.VisMis .body,
+.History .body {
+  font-size: 16px;
+}
+
+.VisMis .author,
+.History .author {
+  font-weight: bold;
+}
+
+/* details page end */
+
+/* Contact page start */
+.Contact {
+  padding-top: 6rem;
+  padding-bottom: 40vh;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* Contact page end */

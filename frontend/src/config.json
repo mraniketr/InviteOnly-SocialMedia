@@ -1,0 +1,17 @@
+{
+    "REACT_APP_loginValidity":"604000",
+    "OTP_SessionValidity":"300",
+    "MPFileLimitPP":"300000",
+    "MPFileTypePP":["image/jpeg","image/jpg","image/png"],
+    "PpCompressionOptions":{
+        "maxSizeMB": 0.3,
+        "maxWidthOrHeight": 800,
+        "useWebWorker": true
+      },
+      "relation":   ["Self","Grand Father","Grand Mother", "Father","Mother","Son", "Daughter","Spouse","Grand Son","Grand Daughter","Son in law","Daughter in law"],
+    "blogPageFetch":10,
+    "FamilyDirPageFetch":10 ,
+    "familySearchMethods":["Family Head Name","Family ID","Mobile Number"] 
+
+
+    }
